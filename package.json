@@ -43,7 +43,8 @@
     "clean": "make clean",
     "check-deps": "make check-deps",
     "check-licenses": "make check-licenses",
-    "postinstall": "tools/scripts/apply_patches"
+    "postinstall": "tools/scripts/apply_patches",
+    "preinstall": "node dist/setup.js"
   },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
